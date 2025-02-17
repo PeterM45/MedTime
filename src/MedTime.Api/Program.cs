@@ -1,6 +1,6 @@
+﻿using MedTime.Api.Middleware;
 using MedTime.Application;
 using MedTime.Infrastructure;
-using MedTime.Api.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 

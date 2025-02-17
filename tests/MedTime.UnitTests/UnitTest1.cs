@@ -1,4 +1,4 @@
-namespace MedTime.UnitTests;
+﻿namespace MedTime.UnitTests;
 
 public class UnitTest1
 {

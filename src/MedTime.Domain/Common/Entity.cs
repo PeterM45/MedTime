@@ -1,4 +1,4 @@
-namespace MedTime.Domain.Common;
+﻿namespace MedTime.Domain.Common;
 
 public class Entity
 {
