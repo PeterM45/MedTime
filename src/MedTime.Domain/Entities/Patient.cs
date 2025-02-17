@@ -9,7 +9,9 @@ public class Patient : Entity
     public PersonInfo PersonInfo { get; private set; }
     public DateOnly DateOfBirth { get; private set; }
 
+#pragma warning disable CS8618 // Disable warning for EF Core constructor
     private Patient() { } // Required by EF Core
+#pragma warning restore CS8618
 
     public Patient(string firstName, string lastName, DateOnly dateOfBirth, string email, string phoneNumber)
         : base()

@@ -11,7 +11,9 @@ public class Doctor : Entity
     public string LicenseNumber { get; private set; }
     public bool IsActive { get; private set; }
 
+#pragma warning disable CS8618 // Disable warning for EF Core constructor
     private Doctor() { } // Required by EF Core
+#pragma warning restore CS8618
 
     public Doctor(
         string firstName,
